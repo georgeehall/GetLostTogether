@@ -1,0 +1,478 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139771255-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139771255-1');
+</script>
+
+    <title>Get Lost Together | Travel & Lifestyle Blog</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Yoga Lite Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700" rel="stylesheet">
+    <!-- //Fonts -->
+
+    <style type="text/css">
+        fieldset.scheduler-border {
+            border: 1px groove #ddd !important;
+            padding: 0 1.4em 1.4em 1.4em !important;
+            margin: 0 0 1.5em 0 !important;
+            -webkit-box-shadow: 0px 0px 0px 0px #000;
+            box-shadow: 0px 0px 0px 0px #000;
+        }
+        
+        legend.scheduler-border {
+            font-size: 1.2em !important;
+            font-weight: bold !important;
+            text-align: left !important;
+            width: auto;
+            padding: 0 10px;
+            border-bottom: none;
+        }
+        
+        .leftcolumn {
+            float: left;
+            width: 70%;
+        }
+        /* Right column */
+        
+        .rightcolumn {
+            float: left;
+            width: 30%;
+            padding-left: 20px;
+        }
+        /* Fake image */
+        
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+        /* Add a card effect for articles */
+        
+        .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        /* Clear floats after the columns */
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        @media screen and (max-width: 800px) {
+            .leftcolumn,
+            .rightcolumn {
+                width: 100%;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //header -->
+
+    <header class="py-sm-3 pt-3 pb-2" id="home">
+        <div class="social" style="margin-left: 25px">
+            <a href="https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons"><i class="fab fa-facebook-f fa-3x"></i></a> &nbsp;
+            <a href="https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons"><i class="fab fa-twitter fa-3x"></i></i></a> &nbsp;
+            <a href="https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons"><i class="fab fa-instagram fa-3x"></i></a>
+        </div>
+        <div class="container">
+            <!-- nav -->
+            <div class="top d-md-flex">
+                <div id="logo">
+                    <a href="index.html">
+                        <img border="0" alt="" src="images/logo.png" style=" width: 90%;">
+                    </a>
+                </div>
+
+            </div>
+            <nav class="text-center">
+                <label for="drop" class="toggle"><span class="fa fa-bars"></span></label>
+                <input type="checkbox" id="drop" />
+                <ul class="menu">
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="destinations.html">Get Travel Ready</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </nav>
+            <!-- //nav -->
+        </div>
+    </header>
+    <!-- //header -->
+
+
+
+<!--  <div class="main-content2" id="home">
+        <div class="overlay">
+             
+            <div class="container">
+                
+                <div class="banner-info text-left">
+                    <h3><b>Bordeaux</b></h3>
+                    <p class="my-3"><b>Text Here</b></p>
+                </div>
+                
+            </div>
+        </div>
+    </div> -->
+<div id="googleMap" style="width:100%;height:400px"></div>
+    <!--// mian-content -->
+<div class="container">
+  <ul class="nav nav-tabs">
+    <li><a data-toggle="tab" href="#menu1">Key Information</a></li>
+    <li><a data-toggle="tab" href="#menu2">Flight Review</a></li>
+    <li><a data-toggle="tab" href="#menu3">Hotel Review</a></li>
+    <li><a data-toggle="tab" href="#menu4">Destination Review</a></li>
+    <li><a data-toggle="tab" href="#menu5">Photo Gallary</a></li>
+    <li><a data-toggle="tab" href="#menu6">Must See</a></li>
+  </ul>
+
+  <div class="tab-content">
+
+    <div id="menu1" class="tab-pane fade in active">
+<h3>Key Information about Bordaeux</h3><br>
+
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fa fa-plane-arrival fa-3x"></i>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Flight Time 1.5 Hours</h4>
+                        </div>
+                        <div class="col-lg-2">
+                            <i class="fa fa-plane-arrival fa-3x"></i>
+                        </div>
+                        <div class="col-lg-4">
+                            <h4>Flight Time 1.5 Hours</h4>
+                        </div>                       
+                    </div>
+
+
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Flight Review</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Hotel Review</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+        <div id="menu4" class="tab-pane fade">
+      <h3>Destination Review</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+        <div id="menu5" class="tab-pane fade">
+      <h3>Photo Gallary</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+        <div id="menu6" class="tab-pane fade">
+      <h3>Must See</h3>
+      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+    </div>
+  </div>
+
+    <div class="container py-md-5">            
+        <div class="row">
+            <div class="leftcolumn">
+                <div class="card">
+                    <h2>TITLE HEADING</h2>
+                    <h5>Title description, Dec 7, 2017</h5>
+                    <img src="images/bordeaux1.jpg">
+                    <p>Some text..</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+            </div>
+            <div class="rightcolumn">
+                <div class="card">
+                    <h6 style="font-weight: 400;">Destination Information</h6>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fa fa-plane-arrival"></i>
+                        </div>
+                        <div class="col-lg-5">
+                            Flight*
+                        </div>
+                        <div class="col-lg-5">
+                            1.5 Hours
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="far fa-clock"></i>
+                        </div>
+                        <div class="col-lg-5">
+                            GMT
+                        </div>
+                        <div class="col-lg-5">
+                            +2 Hours
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fas fa-euro-sign"></i>
+                        </div>
+                        <div class="col-lg-5">
+                            Euros
+                        </div>
+                        <div class="col-lg-5">
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="col-lg-5">
+                            French
+                        </div>
+                        <div class="col-lg-5">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</div>
+
+<hr>
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- //about -->
+        <section class="banner-bottom py-5">
+        </section>
+        <!-- /about -->
+
+        <!-- footer -->
+        <footer class="footer-content py-5">
+            <div class="container-fluid py-lg-5 inner-sec-w3ls">
+                <div class="row">
+                    <div class="col-lg-4 footer-top mt-md-0 mt-sm-5 pr-lg-5">
+                        <h2>
+          <h3 class="mb-3 w3pvt_title">Follow Us</h3>
+          <hr>
+          <a href="https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons"><i class="fab fa-facebook-f fa-3x"></i></a> &nbsp;
+          <a href="https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons"><i class="fab fa-twitter fa-3x"></i></i></a> &nbsp;
+          <a href="https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons"><i class="fab fa-instagram fa-3x"></i></a>
+
+                </div>
+                <div class="col-lg-3 mt-md-0 mt-5">
+                    <div class="footer-w3pvt">
+                        <h3 class="mb-3 w3pvt_title">Navigation</h3>
+                        <hr>
+                        <div class="row">
+                            <ul class="col-6 list-info-w3pvt links">
+
+                                <li>
+                                    <a href="events.html">
+                                        Home
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html">
+                                        About Us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="events.html">
+                                        Travel
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="services.html">
+                                        Lifestyle
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="col-6 list-info-w3pvt links">
+                                <li>
+                                    <a href="about.html">
+                                        Our Mission
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="events.html">
+                                        Latest Posts
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Affiliates
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="contact.html">
+                                        Find us
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="events.html">
+                                        Privacy Policy
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-2 mt-lg-0 mt-5">
+                    <div class="footer-w3pvt">
+                        <h3 class="mb-3 w3pvt_title">Contact Us</h3>
+                        <hr>
+                        <div class="last-w3layouts-contact">
+                            <p>
+                                <a href="mailto:example@email.com">info@example.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-3 mt-lg-0 mt-5">
+                    <div class="footer-w3pvt">
+                        <h3 class="mb-3 w3pvt_title">Stay up to date</h3>
+                        <hr>
+                        <div class="footer-text">
+                            <p>By subscribing to our mailing list you will always get latest news and updates from us.</p>
+                            <form action="#" method="post">
+                                <input type="email" name="Email" placeholder="Enter your email..." required="">
+                                <button class="btn1 btn"><span class="fa fa-paper-plane-o" aria-hidden="true"></span></button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- //footer -->
+    <div class="copy-right py-2">
+        <div class="container-fluid inner-sec-w3ls">
+            <div class="row">
+
+                <div class="move-top col-1"><a href="#home" class="move-top"> <span class="fa fa-angle-up" aria-hidden="true"></span></a></div>
+            </div>
+            <!-- //footer bottom -->
+        </div>
+    </div>
+
+<script type="text/javascript">
+function myMap() {
+        var bordeaux = {lat: 44.841103, lng: -0.574604};
+        var map = new google.maps.Map(document.getElementById('googleMap'), {
+          zoom: 10,
+          center: bordeaux
+        });
+
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h1 id="firstHeading" class="firstHeading">bordeaux</h1>'+
+            '<div id="bodyContent">'+
+            '<p><b>bordeaux</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
+            'sandstone rock formation in the southern part of the '+
+            'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
+            'south west of the nearest large town, Alice Springs; 450&#160;km '+
+            '(280&#160;mi) by road. Kata Tjuta and bordeaux are the two major '+
+            'features of the bordeaux - Kata Tjuta National Park. bordeaux is '+
+            'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
+            'Aboriginal people of the area. It has many springs, waterholes, '+
+            'rock caves and ancient paintings. bordeaux is listed as a World '+
+            'Heritage Site.</p>'+
+            '<p>Attribution: bordeaux, <a href="https://en.wikipedia.org/w/index.php?title=bordeaux&oldid=297882194">'+
+            'https://en.wikipedia.org/w/index.php?title=bordeaux</a> '+
+            '(last visited June 22, 2009).</p>'+
+            '</div>'+
+            '</div>';
+
+        var infowindow = new google.maps.InfoWindow({
+          content: contentString
+        });
+
+        var marker = new google.maps.Marker({
+          position: bordeaux,
+          map: map,
+          title: 'bordeaux (Ayers Rock)'
+        });
+        marker.addListener('click', function() {
+          infowindow.open(map, marker);
+        });
+      }
+    </script>
+</script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOqhOCj4MsltX7elaCQk_fVVxHMZ3xJJs&callback=myMap"></script>
+</body>
+
+</html>
